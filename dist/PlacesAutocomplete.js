@@ -258,7 +258,7 @@ var PlacesAutocomplete = function (_Component) {
   }, {
     key: 'handleInputOnBlur',
     value: function handleInputOnBlur(event) {
-      this.clearAutocomplete();
+      // this.clearAutocomplete()
 
       if (this.props.inputProps.onBlur) {
         this.props.inputProps.onBlur(event);
