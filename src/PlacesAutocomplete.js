@@ -197,7 +197,7 @@ class PlacesAutocomplete extends Component {
   }
 
   handleInputOnBlur(event) {
-    this.clearAutocomplete()
+    // this.clearAutocomplete()
 
     if (this.props.inputProps.onBlur) {
       this.props.inputProps.onBlur(event)
